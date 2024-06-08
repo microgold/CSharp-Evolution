@@ -29,7 +29,7 @@ example.Process((5, 10));
 // Tuple with element names
 example.Process((X: 15, Y: 20));
 
-example.Process((15.0d, Y: 20.0d));
+example.Process((X: 15.0d, Y: 20.0d));
 
 example.Process(15d);
 
@@ -96,7 +96,7 @@ static void Demo()
 
 public class Person
 {
-    public string Name { get; set; }
+    public string Name { get; set; } = "";
     public int Age { get; set; }
 }
 

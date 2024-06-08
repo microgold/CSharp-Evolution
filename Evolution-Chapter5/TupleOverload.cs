@@ -1,7 +1,7 @@
 ﻿
 public class TupleOverload
 {
-    public void Process((int, int) point)
+    public void Process((int X, int Y) point)
     {
         Console.WriteLine($"int tuple: ({point.Item1}, {point.Item2})");
     }
