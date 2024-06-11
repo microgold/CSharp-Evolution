@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <LangVersion>preview</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Evolution_Chapter10</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Features>InterceptorsPreview</Features>
+    <InterceptorsPreviewNamespaces>$(InterceptorsPreviewNamespaces);Evolution_Chapter10</InterceptorsPreviewNamespaces>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
